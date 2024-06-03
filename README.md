@@ -38,10 +38,6 @@ The dataset can be used for various research purposes, including but not limited
 - Finetuning and evaluating LLMs and NLP models on culturally specific datasets
 - Conducting cross-cultural analyses and enhancing the cultural adaptability of AI systems.
 
-## Citation
-
-If you use this dataset in your research, please cite our paper:
-
 ## License
 
 This dataset is licensed under the [MIT License](LICENSE).
