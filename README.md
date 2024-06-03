@@ -38,6 +38,9 @@ The dataset can be used for various research purposes, including but not limited
 - Finetuning and evaluating LLMs and NLP models on culturally specific datasets
 - Conducting cross-cultural analyses and enhancing the cultural adaptability of AI systems.
 
+## Tutorial
+- The PSN-tutorial.ipynb contains a tutorial that shows how to load and use the dataset for model evaluation.
+
 ## License
 
 This dataset is licensed under the [MIT License](LICENSE).
