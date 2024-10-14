@@ -11,15 +11,25 @@ The dataset consists of four primary columns:
 - **Norm - FA:** The specific social norm or cultural expectation being represented, stated clearly and concisely in Farsi(e.g., 'Showing respect for elders').
 - **Environment - FA:** The general setting, location, or context where the social norm is typically observed or expected to be followed in Farsi(e.g., 'family gatherings', 'public spaces', 'workplace').
 - **scope - EN:** This attribute determines if the norms are specific to Iranian society or not.
+- **Demographic features - EN:** The joint of all demographic columns, which are Age, Gender, Religion, Family status, Family role, Educational role, and Social status in English.
+- **Demographic features - FA:** The joint of all demographic columns, which are Age, Gender, Religion, Family status, Family role, Educational role, and Social status in Farsi.
 - **Age - EN:** The Age of the person that the norm is associated with in English. Possible values: child, adult, elderly, and young.
-- **Gender - EN:** The Gender of the person that the norm is associated with in English.
-- **Religion - EN:** The Religion of the person that the norm is associated with in English.
-- **Ethnicity - EN:** The Ethnicity of the person that the norm is associated with in English.
-- **Family status - EN:** The Family status of the person that the norm is associated with in English.
-- **Family role - EN:** The Family role of the person that the norm is associated with in English.
-- **Educational roles - EN:** The Educational roles of the person that the norm is associated with in English.
-- **Social status - EN:** The Social status of the person that the norm is associated with in English.
-- **Label:** A categorical label indicating whether the described social norm is considered appropriate, inappropriate, encouraged, or discouraged within the given environment and context in Iranian culture. The labels are:
+- **Gender - EN:** The Gender of the person that the norm is associated with in English. Possible values: woman and man.
+- **Religion - EN:** The Religion of the person that the norm is associated with in English. Possible values: Muslim, Christian, Jewish, Zoroastrian, and Not Muslim.
+- **Ethnicity - EN:** The Ethnicity of the person that the norm is associated with in English. Possible values: Fars, Turk, Kurd, Arab, Baluch, Turkmen, and Qashqai.
+- **Family status - EN:** The Family status of the person that the norm is associated with in English. Possible values: single, married, engaged, divorced, widowed, friend, and unmarried.
+- **Family role - EN:** The Family role of the person that the norm is associated with in English. Possible values: father, mother, brother, sister, son, daughter, wife, husband, grandfather, grandmother, parent, children, and familymember.
+- **Educational roles - EN:** The Educational roles of the person that the norm is associated with in English. Possible values: student, teacher, professor, University student.
+- **Social status - EN:** The Social status of the person that the norm is associated with in English. Possible values: poor, middle class, and wealthy.
+- - **Age - FA:** The Age of the person that the norm is associated with in Farsi. Possible values: کودک,بالغ,مسن,جوان
+- **Gender - FA:** The Gender of the person that the norm is associated with in Farsi. Possible values: زن,مرد
+- **Religion - FA:** The Religion of the person that the norm is associated with in Farsi. Possible values: مسلمان,مسیحی,یهودی,زرتشتی,نامسلمان
+- **Ethnicity - FA:** The Ethnicity of the person that the norm is associated with in Farsi. Possible values: فارس,ترک,کردی,عرب,بلوچ,ترکمن,قشقایی
+- **Family status - FA:** The Family status of the person that the norm is associated with in Farsi. Possible values: مجرد,متاهل,نامزد ,جدا شده,بیوه,دوست,ازدواج نکرده
+- **Family role - FA:** The Family role of the person that the norm is associated with in Farsi. Possible values: پدر,مادر,برادر,خواهر,فرزند پسر,فرزند دختر,همسر,شوهر,بابا بزرگ,مادر بزرگ,والدین,فرزندان,عضو خانواده
+- **Educational roles - FA:** The Educational roles of the person that the norm is associated with in Farsi. Possible values: دانش آموز,معلم,استاد,دانشجو.
+- **Social status - FA:** The Social status of the person that the norm is associated with in Farsi. Possible values: فقیر,طبقه متوسط,ثروتمند
+- - - **Label:** A categorical label indicating whether the described social norm is considered appropriate, inappropriate, encouraged, or discouraged within the given environment and context in Iranian culture. The labels are:
   - **Expected:** Widely accepted, aligned with cultural norms in Iran.
   - **Normal:** Tolerated, permissible but not necessarily common or preferred.
   - **Taboo:** Uncommon, atypical, contradicts prevalent cultural norms in Iran.
