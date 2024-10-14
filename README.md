@@ -29,7 +29,7 @@ The dataset consists of four primary columns:
 - **Family role - FA:** The Family role of the person that the norm is associated with in Farsi. Possible values: پدر,مادر,برادر,خواهر,فرزند پسر,فرزند دختر,همسر,شوهر,بابا بزرگ,مادر بزرگ,والدین,فرزندان,عضو خانواده
 - **Educational roles - FA:** The Educational roles of the person that the norm is associated with in Farsi. Possible values: دانش آموز,معلم,استاد,دانشجو.
 - **Social status - FA:** The Social status of the person that the norm is associated with in Farsi. Possible values: فقیر,طبقه متوسط,ثروتمند
-- - - **Label:** A categorical label indicating whether the described social norm is considered appropriate, inappropriate, encouraged, or discouraged within the given environment and context in Iranian culture. The labels are:
+- **Label:** A categorical label indicating whether the described social norm is considered appropriate, inappropriate, encouraged, or discouraged within the given environment and context in Iranian culture. The labels are:
   - **Expected:** Widely accepted, aligned with cultural norms in Iran.
   - **Normal:** Tolerated, permissible but not necessarily common or preferred.
   - **Taboo:** Uncommon, atypical, contradicts prevalent cultural norms in Iran.
