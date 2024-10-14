@@ -36,20 +36,20 @@ The dataset consists of four primary columns:
 
 ## Data Statistics
 
-The dataset contains 1,760 samples and 334 unique environments. The distribution of labels is as follows:
-- **Expected:** 51.5%
-- **Normal:** 27.3%
-- **Taboo:** 21.2%
+The dataset contains 1,700 samples. The distribution of labels is as follows:
+- **Expected:** 44.9%
+- **Normal:** 31.1%
+- **Taboo:** 24%
 
 ## Data Construction
 
 The data was constructed using large language models (LLMs) and prompt engineering techniques. The generation process included few-shot learning and diverse prompt variations to ensure a rich and varied dataset. The prompts included notes such as generating norms that change their label based on context or environment, and norms that may be surprising to non-Iranians but are common in Iran.
 
-Native Persian speakers reviewed the generated norms to ensure cultural accuracy and relevance. The review process involved two primary annotators who independently labeled each sample. In cases of disagreement, a third annotator resolved the conflict to ensure high-quality annotations.
+Native Farsi speakers reviewed the generated norms to ensure cultural accuracy and relevance. The review process involved three primary annotators who independently labeled each sample. 
 
 ## Translation to English
 
-To facilitate broader research applications and enhance the cultural awareness of English-language AI models, the norms were also translated into English. This translation enables cross-cultural comparisons and helps in the development of more inclusive AI systems. The Persian version of the dataset is available as `PSN-fa.csv`, and the English version is available as `PSN-en.csv`.
+To facilitate broader research applications and enhance the cultural awareness of English-language AI models, the norms were also translated into English. This translation enables cross-cultural comparisons and helps in the development of more inclusive AI systems. 
 
 ## Usage
 
@@ -57,9 +57,6 @@ The dataset can be used for various research purposes, including but not limited
 - Studying social norms and cultural expectations in Iranian society.
 - Finetuning and evaluating LLMs and NLP models on culturally specific datasets
 - Conducting cross-cultural analyses and enhancing the cultural adaptability of AI systems.
-
-## Tutorial
-- The PSN-tutorial.ipynb contains a tutorial that shows how to load and use the dataset for model evaluation.
 
 ## License
 
