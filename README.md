@@ -1,14 +1,24 @@
-# Persian Social Norm Dataset
+# Iranian Social Norm Dataset
 
-Welcome to the Persian Social Norm Dataset repository! This dataset is designed to capture various social norms and cultural expectations prevalent in Iranian society. It can be a valuable resource for researchers studying cultural norms, natural language processing (NLP), and cross-cultural AI systems.
+Welcome to the Iranian Social Norm Dataset repository! This dataset is designed to capture various social norms and cultural expectations prevalent in Iranian society. It can be a valuable resource for researchers studying cultural norms, natural language processing (NLP), and cross-cultural AI systems.
 
 ## Dataset Description
 
 The dataset consists of four primary columns:
 
-- **Norm:** The specific social norm or cultural expectation being represented, stated clearly and concisely (e.g., 'Showing respect for elders').
-- **Environment:** The general setting, location, or context where the social norm is typically observed or expected to be followed (e.g., 'family gatherings', 'public spaces', 'workplace').
-- **Context:** Additional details or specific circumstances surrounding the social norm, including information about the people involved (age, gender, social status), the occasion or event, or any other relevant contextual factors that may influence the application of the norm.
+- **Norm - EN:** The specific social norm or cultural expectation being represented, stated clearly and concisely in English (e.g., 'Showing respect for elders').
+- **Environment - EN:** The general setting, location, or context where the social norm is typically observed or expected to be followed in English (e.g., 'family gatherings', 'public spaces', 'workplace').
+- **Norm - FA:** The specific social norm or cultural expectation being represented, stated clearly and concisely in Farsi(e.g., 'Showing respect for elders').
+- **Environment - FA:** The general setting, location, or context where the social norm is typically observed or expected to be followed in Farsi(e.g., 'family gatherings', 'public spaces', 'workplace').
+- **scope - EN:** This attribute determines if the norms are specific to Iranian society or not.
+- **Age - EN:** The Age of the person that the norm is associated with in English. Possible values: child, adult, elderly, and young.
+- **Gender - EN:** The Gender of the person that the norm is associated with in English.
+- **Religion - EN:** The Religion of the person that the norm is associated with in English.
+- **Ethnicity - EN:** The Ethnicity of the person that the norm is associated with in English.
+- **Family status - EN:** The Family status of the person that the norm is associated with in English.
+- **Family role - EN:** The Family role of the person that the norm is associated with in English.
+- **Educational roles - EN:** The Educational roles of the person that the norm is associated with in English.
+- **Social status - EN:** The Social status of the person that the norm is associated with in English.
 - **Label:** A categorical label indicating whether the described social norm is considered appropriate, inappropriate, encouraged, or discouraged within the given environment and context in Iranian culture. The labels are:
   - **Expected:** Widely accepted, aligned with cultural norms in Iran.
   - **Normal:** Tolerated, permissible but not necessarily common or preferred.
