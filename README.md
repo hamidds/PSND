@@ -21,7 +21,7 @@ The dataset consists of four primary columns:
 - **Family role - EN:** The Family role of the person that the norm is associated with in English. Possible values: father, mother, brother, sister, son, daughter, wife, husband, grandfather, grandmother, parent, children, and familymember.
 - **Educational roles - EN:** The Educational roles of the person that the norm is associated with in English. Possible values: student, teacher, professor, University student.
 - **Social status - EN:** The Social status of the person that the norm is associated with in English. Possible values: poor, middle class, and wealthy.
-- - **Age - FA:** The Age of the person that the norm is associated with in Farsi. Possible values: کودک,بالغ,مسن,جوان
+- **Age - FA:** The Age of the person that the norm is associated with in Farsi. Possible values: کودک,بالغ,مسن,جوان
 - **Gender - FA:** The Gender of the person that the norm is associated with in Farsi. Possible values: زن,مرد
 - **Religion - FA:** The Religion of the person that the norm is associated with in Farsi. Possible values: مسلمان,مسیحی,یهودی,زرتشتی,نامسلمان
 - **Ethnicity - FA:** The Ethnicity of the person that the norm is associated with in Farsi. Possible values: فارس,ترک,کردی,عرب,بلوچ,ترکمن,قشقایی
