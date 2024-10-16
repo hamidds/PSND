@@ -46,7 +46,7 @@ Welcome to the Iranian Social Norm Dataset repository! This dataset is designed 
 
 ## Data Statistics
 
-The dataset contains 1,700 samples. The distribution of labels is as follows:
+The dataset contains 1,699 samples. The distribution of labels is as follows:
 - **Expected:** 44.9%
 - **Normal:** 31.1%
 - **Taboo:** 24%
