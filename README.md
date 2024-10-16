@@ -24,7 +24,7 @@ Welcome to the Iranian Social Norm Dataset repository! This dataset is designed 
 - **Religion**: The religion of the person that the norm is associated with. Possible values: Muslim, Christian, Jewish, Zoroastrian, Not Muslim.
 - **Ethnicity**: The ethnicity of the person that the norm is associated with. Possible values: Fars, Turk, Kurd, Arab, Baluch, Turkmen, Qashqai.
 - **Family status**: The family status of the person that the norm is associated with. Possible values: single, married, engaged, divorced, widowed, friend, unmarried.
-- **Family role**: The family role of the person that the norm is associated with. Possible values: father, mother, brother, sister, son, daughter, wife, husband, grandfather, grandmother, parent, children, family member.
+- **Family role**: The family role of the person with whom the norm is associated. Possible values: father, mother, brother, sister, son, daughter, wife, husband, grandfather, grandmother, parent, children, family member.
 - **Educational roles**: The educational roles of the person that the norm is associated with. Possible values: student, teacher, professor, university student.
 - **Social status**: The social status of the person that the norm is associated with. Possible values: poor, middle class, wealthy.
 
@@ -39,7 +39,7 @@ Welcome to the Iranian Social Norm Dataset repository! This dataset is designed 
 - **Educational roles**: The educational roles of the person that the norm is associated with. Possible values: دانش آموز, معلم, استاد, دانشجو.
 - **Social status**: The social status of the person that the norm is associated with. Possible values: فقیر, طبقه متوسط, ثروتمند.
 
-- The descrition of the labels are as follows:
+- The description of the labels is as follows:
   - **Expected:** Widely accepted, aligned with cultural norms in Iran.
   - **Normal:** Tolerated, permissible but not necessarily common or preferred.
   - **Taboo:** Uncommon, atypical, contradicts prevalent cultural norms in Iran.
@@ -59,7 +59,7 @@ Native Farsi speakers reviewed the generated norms to ensure cultural accuracy a
 
 ## Translation to English
 
-To facilitate broader research applications and enhance the cultural awareness of English-language AI models, the norms were also translated into English. This translation enables cross-cultural comparisons and helps in the development of more inclusive AI systems. 
+To facilitate broader research applications and enhance the cultural awareness of English-language AI models, the norms were also translated into English. This translation enables cross-cultural comparisons and helps develop more inclusive AI systems. 
 
 ## Usage
 
@@ -67,6 +67,10 @@ The dataset can be used for various research purposes, including but not limited
 - Studying social norms and cultural expectations in Iranian society.
 - Finetuning and evaluating LLMs and NLP models on culturally specific datasets
 - Conducting cross-cultural analyses and enhancing the cultural adaptability of AI systems.
+
+## Files
+- [ISN] FINAL - w_demographiccols-updated.csv: contains the dataset along with the demographic columns separately.
+- [ISN] FINAL - wo_demographiccols-updated.csv: contains only the joint demographic features.
 
 ## License
 
