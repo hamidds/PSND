@@ -74,7 +74,7 @@ The dataset can be used for various research purposes, including but not limited
 
 ## License
 
-This dataset is licensed under the [MIT License](LICENSE).
+This dataset is licensed under the [CC-BY-4.0 License](LICENSE).
 
 ## Acknowledgements
 
